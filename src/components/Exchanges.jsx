@@ -4,6 +4,8 @@ import axios from "axios";
 import { Baseurl } from "./baseUrl";
 import Loader from "./Loader";
 import "./Exchanges.css";
+import Ourmodel from "./Ourmodel";
+
 const Exchanges = () => {
   const [loading, setLoading] = useState(true);
   const [exchanges, setExchanges] = useState([]);
@@ -23,7 +25,8 @@ const Exchanges = () => {
       ) : (
         <>
           <Header />
-          <div>
+          <Ourmodel style />
+          <div className="def">
             {exchanges.map((item, i) => {
               return (
                 <div key={i} className="ex-cards">
@@ -35,6 +38,7 @@ const Exchanges = () => {
                     {item.trade_volume_24h_btc.toFixed(0)}
                   </div>
                   <div className="rank">{item.trust_score_rank}</div>
+                  <div className="rank">{item.year_established}</div>
                 </div>
               );
             })}

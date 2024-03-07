@@ -2,7 +2,13 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background-color: rgb(151, 28, 151);
+  background: linear-gradient(
+    92.23deg,
+    #c340ff 21.43%,
+    #753be2 50.63%,
+    #b936ee 100%,
+    #ff56f6 117.04%
+  );
   padding-bottom: 10px;
 }
 

@@ -6,7 +6,13 @@
 }
 
 body {
-  background-color: purple;
-  color: beige;
+  background: linear-gradient(
+    92.23deg,
+    #b44ab8 21.43%,
+    #b936ee 50.63%,
+    #901c94 100%,
+    #68199c 117.04%
+  );
+  color: rgb(239, 220, 245);
   font-family: "Poppins", sans-serif;
 }

@@ -1,7 +1,12 @@
+.def {
+  margin-top: 40rem;
+}
+
 .ex-cards {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  /* white-space: unset; */
   margin-top: 5rem;
   font-size: 20px;
   font-weight: bold;
@@ -12,24 +17,11 @@
 } */
 
 .name {
-  width: 6rem;
+  width: 8rem;
 }
 .price {
-  width: 6rem;
+  width: 8rem;
 }
 .rank {
-  width: 6rem;
-}
-
-.btns button {
-  padding: 8px;
-  background-color: rgb(168, 93, 211);
-  border: none;
-  margin-left: 30px;
-  width: 6rem;
-  border-radius: 10px;
-  margin-top: 60px;
-}
-.btns {
-  margin-left: 12rem;
+  width: 8rem;
 }
